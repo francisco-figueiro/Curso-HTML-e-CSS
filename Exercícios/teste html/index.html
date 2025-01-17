@@ -10,6 +10,21 @@
 @font-face {
     font-family:'vacia' ;
     src: url(V-de-vacia-deFharo.ttf);}
+
+body{ background-image: url(wallpaper004.jpg);}
+
+ol{columns: 2;}
+
+div.video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.video > iframe {
+    position: absolute;
+}
 </style>
 
 </head>
@@ -35,12 +50,13 @@
         <li>carne</li>
         <li>óleo</li>
         <li>macarrão</li>
+        <li>sal</li>
     </ol>
 
     <p><a href="livro/01 - História da Internet.pdf" download="01 - História da Internet.pdf" type="application/pdf">Baixe aqui o arquivo em pdf</a></p>
     <p><a href="livro/01 - História da Internet.zip" download="01 - História da internet.zip" type="application/zip">Baixe aqui o arquivo zip</a></p>
     
-    <iframe src="https://player.vimeo.com/video/113812993?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="300" height="169" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Jesus Almela - Demo Reel - The Muppets, Movie Adventures"></iframe>
+    <div class="video"><iframe src="https://player.vimeo.com/video/113812993?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="300" height="169" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Jesus Almela - Demo Reel - The Muppets, Movie Adventures"></iframe></div>
 </main>
 <footer>
     Criado por Francisco Figueiró
