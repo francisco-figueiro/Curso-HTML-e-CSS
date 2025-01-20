@@ -51,23 +51,27 @@ section > p{
 section.normal{background-color: white;
 color: black;}
 
-section.image{
+section.imagem{
     background-color: blackrgb(204, 39, 39);
-    color: white;}
+    color: black;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;}
 
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.281);
+    background-color: rgba(245, 244, 244, 0.514)
 }
 
 section#img001{
     background-image: url('../imagens/background001.jpg');
-background-position: right center;}
+background-position: right center;
+background-size:cover;}
 
 section#img002{
     background-image: url('../imagens/background002.jpg');
     background-position: right center;
+    background-size: cover};
 
 
 footer{background-color: black;
